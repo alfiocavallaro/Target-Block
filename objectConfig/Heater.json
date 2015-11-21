@@ -1,0 +1,24 @@
+{
+	"name": "Howewll Model X",
+	"type": "Heater",
+	"guid": "C5A498CD-DC61-41E7-BD01-C3680AB83D12",
+	"communication": {
+		"type": "IP",
+		"parameters": {
+			"IP": "127.0.0.1",
+			"port": "4000",
+			"url": "127.0.0.1:4000",
+			"path": "/MyHeater",
+			"method": "GET"
+		}
+	},
+	"api": {
+		"switchON": "?command=ON",
+		"switchOFF": "?command=OFF",
+		"read": "?command=READ",
+		"set": "?command=SET&value=#val"
+	}
+}
+
+
+

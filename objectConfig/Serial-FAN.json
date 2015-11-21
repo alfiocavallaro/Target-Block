@@ -1,0 +1,24 @@
+{
+	"name": "Howell Model 1",
+	"type": "Fan",
+	"guid": "592882CC-2C13-451E-BD86-6E32E2DA7627",
+	"communication": {
+		"type": "Serial",
+		"parameters": {
+			"port": "COM12",
+			"baudrate": "9600",
+			"parity": "None",
+			"bitstop": "1"
+		}
+		
+	},
+	"api": {
+		"switchON": "ON",
+		"switchOFF": "OFF",
+		"read": "READ",
+		"set": "intensity:#value"
+	}
+}
+
+
+

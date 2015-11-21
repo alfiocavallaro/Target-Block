@@ -1,0 +1,20 @@
+{
+	"name": "Howell Heater Model X",
+	"type": "Heater",
+	"guid": "D2FDB6E7-96D1-4D55-8448-B1D2532B5D8A",
+	"communication": {
+		"type": "i2c",
+		"parameters": {
+			"address": "26"
+		}
+	},
+	"api": {
+		"switchON": "1",
+		"switchOFF": "2",
+		"read": "3",
+		"set": "4:#value"
+	}
+}
+
+
+

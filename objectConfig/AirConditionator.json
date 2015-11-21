@@ -1,0 +1,24 @@
+{
+	"name": "Samsung Model X",
+	"type": "AirConditionator",
+	"guid": "29EBD4E6-54B7-4EFA-B843-ED57BEFA4669",
+	"communication": {
+		"type": "IP",
+		"parameters": {
+			"IP": "127.0.0.1",
+			"port": "4000",
+			"url": "127.0.0.1:4000",
+			"path": "/MyAirCond",
+			"method": "GET"
+		}
+	},
+	"api": {
+		"switchON": "?command=ON",
+		"switchOFF": "?command=OFF",
+		"read": "?command=READ",
+		"set": "?command=SET&value=#val"
+	}
+}
+
+
+

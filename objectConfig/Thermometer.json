@@ -1,0 +1,21 @@
+{
+	"name": "Thermometer Model XY",
+	"type": "Thermometer",
+	"guid": "DB5DA376-87D0-4AEC-8BF2-4400A83E401F",
+	"communication": {
+		"type": "IP",
+		"parameters": {
+			"IP": "127.0.0.1",
+			"port": "4000",
+			"url": "127.0.0.1:4000",
+			"path": "/MyThermometer",
+			"method": "GET"
+		}
+	},
+	"api": {
+		"read": "?command=READ"
+	}
+}
+
+
+

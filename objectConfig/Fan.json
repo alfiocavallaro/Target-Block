@@ -1,0 +1,24 @@
+{
+	"name": "Howell Model Y",
+	"type": "Fan",
+	"guid": "DD3ACED8-B6F0-4A20-9A9B-CA5972FC9086",
+	"communication": {
+		"type": "IP",
+		"parameters": {
+			"IP": "127.0.0.1",
+			"port": "4000",
+			"url": "127.0.0.1:4000",
+			"path": "/MyFan",
+			"method": "GET"
+		}
+	},
+	"api": {
+		"switchON": "?command=ON",
+		"switchOFF": "?command=OFF",
+		"read": "?command=READ",
+		"set": "?command=SET&value=#val"
+	}
+}
+
+
+

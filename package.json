@@ -1,0 +1,10 @@
+{
+  "name": "target-block",
+  "version": "0.0.0",
+  "private": true,
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "serialport": "^2.0.5"
+  }
+}

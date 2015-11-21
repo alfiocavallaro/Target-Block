@@ -1,0 +1,23 @@
+{
+	"name": "Samsung Model X",
+	"type": "Smart TV",
+	"guid": "FDC74BA9-18CB-42D3-B6C0-52446422CE03",
+	"communication": {
+		"type": "IP",
+		"parameters": {
+			"IP": "127.0.0.1",
+			"port": "4000",
+			"url": "127.0.0.1:4000",
+			"path": "/MySmartTV1",
+			"method": "GET"
+		}
+	},
+	"api": {
+		"switchON": "?command=ON",
+		"switchOFF": "?command=OFF",
+		"read": "?command=READ"
+	}
+}
+
+
+
