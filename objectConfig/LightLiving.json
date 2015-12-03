@@ -1,0 +1,23 @@
+{
+	"name": "Beghelli LED",
+	"type": "Light",
+	"guid": "CD5BFC98-1C19-4E52-9338-D687565BC75A",
+	"communication": {
+		"type": "IP",
+		"parameters": {
+			"IP": "127.0.0.1",
+			"port": "4000",
+			"url": "127.0.0.1:4000",
+			"path": "/MyLightLiving",
+			"method": "GET"
+		}
+	},
+	"api": {
+		"switchON": "?command=ON",
+		"switchOFF": "?command=OFF",
+		"read": "?command=READ"
+	}
+}
+
+
+

@@ -1,0 +1,23 @@
+{
+	"name": "Beghelli LED",
+	"type": "Light",
+	"guid": "D2935D9E-0872-4999-8B52-BFB3F1794596",
+	"communication": {
+		"type": "IP",
+		"parameters": {
+			"IP": "127.0.0.1",
+			"port": "4000",
+			"url": "127.0.0.1:4000",
+			"path": "/MyLightKitchen",
+			"method": "GET"
+		}
+	},
+	"api": {
+		"switchON": "?command=ON",
+		"switchOFF": "?command=OFF",
+		"read": "?command=READ"
+	}
+}
+
+
+
